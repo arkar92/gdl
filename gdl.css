@@ -1,0 +1,23 @@
+/* Google Font Embeded */
+body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+
+
+.blue-color{
+    background-color: #1b6ab4;
+    color: white;
+}
+
+.blue-text{
+    color: #1b6ab4;
+}
