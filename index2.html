@@ -1,125 +1,61 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Home Page | Global Direct Link</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="gdl.css">
-    
+<link rel="stylesheet" href="gdl.css">    
 
 <!--<body class="w3-content" style="max-width:1500px">-->
 <body>
-<!-- First Grid: Logo & About -->
+
+<!-- First Grid: Slider & Navigation -->
+
+
 <div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>My Logo</h1>
+    <div class="w3-col l5">
+        <div class="w3-display-container">
+            <img src="img/slider/trading-min.jpg" style="width: 100%" />
+            <div class="w3-display-middle blue-color w3-opacity-min" style="padding: 5em;">
+                <h1 class="w3-center w3-text-white w3-jumbo">
+                    <b>Trading</b>
+                </h1>
+                <p class="w3-center">
+                    <button class="w3-button w3-xlarge w3-padding-large blue-text w3-white">
+                        Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </button>
+                </p>                
+            </div>
+            
+            <div class="w3-display-bottommiddle">
+                <p class="w3-center">
+                    <span class="w3-badge demo w3-transparent w3-blue w3-hover-white w3-margin" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-transparent w3-white w3-hover-white w3-margin" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-transparent w3-white w3-hover-white w3-margin" onclick="currentDiv(3)"></span>
+                    <span class="w3-badge demo w3-transparent w3-white w3-hover-white w3-margin" onclick="currentDiv(4)"></span>
+                    <span class="w3-badge demo w3-transparent w3-white w3-hover-white w3-margin" onclick="currentDiv(5)"></span>
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    
+    <div class="w3-col l7 w3-light-grey">
+        <div class="w3-padding w3-padding-32 w3-center blue-color">
+            <a href="#" class="w3-xlarge" style="text-decoration: none">Home</a> .             
+            <a href="#" class="w3-xlarge" style="text-decoration: none">About</a> . 
+            <a href="#" class="w3-xlarge" style="text-decoration: none">Services</a> . 
+            <a href="#" class="w3-xlarge" style="text-decoration: none">Contact</a>
+        </div>
     </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-left-align w3-padding-large">
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
-    </div>
-  </div>
 </div>
 
-<!-- Second Grid: Work & Resume -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
-    <div class="w3-padding-64">
-      <h2>My Work</h2>
-      <p>Some of my latest projects.</p>
-    </div>
-    <div class="w3-row">
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-    </div>
 
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/sound.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div><br>
-    <p>Just call me awesome.</p>
-  </div>
-  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
-    <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A draft from my CV</p>
-      <div class="w3-container w3-responsive">
-        <table class="w3-table">
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
-          </tr>
-          <tr class="w3-white">
-            <td>2012-2016</td>
-            <td>The rest is history..</td>
-            <td>Lorem ipsum</td>
-          </tr>
-          <tr>
-            <td>2009-2012</td>
-            <td>Started my own company</td>
-            <td>My Garage</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2008-2009</td>
-            <td>Started working for Lorem</td>
-            <td>London, UK</td>
-          </tr>
-          <tr>
-            <td>2005-2008</td>
-            <td>Degree in Bachelor of Design</td>
-            <td>Harvard, USA</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-          <tr class="w3-hide-medium">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Third Grid: About Us & Services -->
 <div class="w3-row" id="contact">
-  <div class="w3-col l5 w3-container w3-padding-64 w3-white" style="height:750px; background-image: url(img/logo-opicity.png);background-repeat: no-repeat; background-position: center;">
+  <div class="w3-col l5 w3-container w3-padding-64 w3-white" style="height:950px; background-image: url(img/logo-opicity.png);background-repeat: no-repeat; background-position: center;">
     <h1 class="blue-text w3-center">
         <b>About Us</b>        
     </h1>
@@ -141,33 +77,158 @@
             Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
         </button>
     </div>
+    
+    <div class="w3-row w3-margin-top">
+        <h1 class="blue-text w3-center">
+            <b>Business Partners</b>        
+        </h1>
+        
+        <div class="w3-col l3">
+            <img src="img/client1.png" />
+        </div>
+        
+        <div class="w3-col l3">
+            <img src="img/client2.png" />
+        </div>
+        
+        <div class="w3-col l3">
+            <img src="img/client3.png" />
+        </div>
+        
+        <div class="w3-col l3">
+            <img src="img/client4.png" />
+        </div>
+        
+    </div>
+    
   </div>
     
-  <div class="w3-col l7 w3-light-grey w3-container" style="height:700px">
+  <div class="w3-col l7 blue-color w3-container" style="height:950px">
     <div class="w3-padding-64 w3-padding-large">
-      <h1 class="blue-text w3-center"><b>Contact Us</b></h1>
-      <p class="blue-text w3-center"><b>Get In Touch</b></p>
-      <form class="w3-container w3-padding-32 w3-light-grey" action="#" target="_blank">
+        <h1 class="w3-text-white w3-center"><b>Our Services</b></h1>
+        
         <div class="w3-row-padding">
-            <div class="w3-col l4 w3-margin-top">
-                <input class="w3-input" style="width:100%; border: solid #1b6ab4 4px;" placeholder="Name" type="text" required name="name">
+            <!-- Trading -->
+            <div class="w3-col l6 w3-margin-top">
+                <div class="w3-row w3-padding w3-white">
+                    <div class="w3-col l4 w3-center">
+                        <img class="w3-padding-32" src="img/icons/trading-icons.png" />
+                    </div>
+                    <div class="w3-col l8">
+                        <h2>
+                            <b>Trading</b>
+                        </h2>
+                        <p>
+                            Import & exports of natural resources, vehicles, building & printing material
+                        </p>
+                        <p>
+                            <a href="#">
+                                Learn More
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="w3-col l4 w3-margin-top">
-                <input class="w3-input" style="width:100%; border: solid #1b6ab4 4px;" placeholder="Phone No" type="tel" required name="phone">
-            </div>
-            <div class="w3-col l4 w3-margin-top">
-                <input class="w3-input" style="width:100%; border: solid #1b6ab4 4px;" placeholder="Email" type="email" required name="Email">
-            </div>
-            <div class="w3-col l12 w3-margin-top">
-                <textarea placeholder="Message" rows="5" name="message" style="width:100%; border: solid #1b6ab4 4px;"></textarea>
+
+            <!-- Manufacturing -->
+            <div class="w3-col l6 w3-margin-top">
+                <div class="w3-row w3-padding w3-white">
+                    <div class="w3-col l4 w3-center">
+                        <img class="w3-padding-32" src="img/icons/manufacturing-icons.png" />
+                    </div>
+                    <div class="w3-col l8">
+                        <h2>
+                            <b>Manufacturing</b>
+                        </h2>
+                        <p>
+                            Wood processing & Newspaper printing <br/> <br/>
+                        </p>
+                        <p>
+                            <a href="#">
+                                Learn More
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="w3-center w3-margin-top">
-            <button type="submit" class="w3-button w3-xlarge w3-padding-large blue-color w3-center">
-                Send <i class="fa fa-paper-plane" aria-hidden="true"></i>
-            </button>
-        </div>        
-      </form>
+        
+        <div class="w3-row-padding">
+            <!-- Mining -->
+            <div class="w3-col l6 w3-margin-top">
+                <div class="w3-row w3-padding w3-white">
+                    <div class="w3-col l4 w3-center">
+                        <img class="w3-padding-32" src="img/icons/mine-icons.png" />
+                    </div>
+                    <div class="w3-col l8">
+                        <h2>
+                            <b>Mining</b>
+                        </h2>
+                        <p>
+                            Gems & Gold
+                        </p>
+                        <p>
+                            <a href="#">
+                                Learn More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real Estate -->
+            <div class="w3-col l6 w3-margin-top">
+                <div class="w3-row w3-padding w3-white">
+                    <div class="w3-col l4 w3-center">
+                        <img class="w3-padding-32" src="img/icons/estate-icons.png" />
+                    </div>
+                    <div class="w3-col l8">
+                        <h2>
+                            <b>Real Estate</b>
+                        </h2>
+                        <p>
+                            Developer & Project Management
+                        </p>
+                        <p>
+                            <a href="#">
+                                Learn More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-row-padding">
+            
+            <div class="w3-col l3">&nbsp;</div>
+            
+            <!-- Information & News Publishing -->
+            <div class="w3-col l6 w3-margin-top">
+                <div class="w3-row w3-padding w3-white">
+                    <div class="w3-col l4 w3-center">
+                        <img class="w3-padding-32" src="img/icons/news-icons.png" />
+                    </div>
+                    <div class="w3-col l8">
+                        <h2>
+                            <b>Information & News Publishing</b>
+                        </h2>
+                        <p>
+                            Daily newspaper & information services
+                        </p>
+                        <p>
+                            <a href="#">
+                                Learn More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-col l3">&nbsp;</div>
+            
+        </div>
+    
     </div>
   </div>
 </div>

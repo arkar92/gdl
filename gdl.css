@@ -21,3 +21,5 @@ body,
 .blue-text{
     color: #1b6ab4;
 }
+
+.w3-badge {height:25px;width:25px;padding:0;cursor:pointer;}
