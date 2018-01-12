@@ -11,7 +11,7 @@
 <script src="https://www.w3schools.com/lib/w3.js"></script>
     
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: "Quicksand", sans-serif}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
 </style>
@@ -35,9 +35,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
             <div class="w3-col l6">
                 <p class="blue-text w3-large">
                     98/B, Inyar Road, Kamaryut township, Yangon, Myanmar. <br/>
-                    Email : marketing@globaldirectlink.com <br/>
+                    Email : <a href="mailto:marketing@globaldirectlink.com" style="text-decoration: none;">marketing@globaldirectlink.com</a> <br/>
                     <span class="blue-text w3-xlarge">
-                        +95 1 513178
+                        <a href="tel:+95 1 513178" style="text-decoration: none;">
+                            +95 1 513178
+                        </a>                        
                     </span>
                 </p>                
             </div>
@@ -65,9 +67,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </nav>
 </div>
 
-\
 <!-- Home Page Slider -->
-<div class="mySlides" style="margin-top: -22px;">
+<div class="mySlides" style="margin-top: 0px;">
     <div class="w3-display-container bg">
         <div class="w3-display-middle">
             
@@ -83,7 +84,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
             </div>
             
-            <div class="w3-row w3-black">
+            <div class="w3-row w3-white">
                 <div class="w3-margin">
                     <p class="w3-center">
                         <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
@@ -99,7 +100,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 
 
-<div class="mySlides" style="margin-top: -22px;">
+<div class="mySlides" style="margin-top: 0px;">
     <div class="w3-display-container bg1">
         <div class="w3-display-middle">
             
@@ -115,7 +116,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                 </div>
             </div>
             
-            <div class="w3-row w3-black">
+            <div class="w3-row w3-white">
                 <div class="w3-margin">
                     <p class="w3-center">
                         <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
@@ -150,186 +151,253 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
-  
-  <!-- Photo grid -->
-  <div class="w3-row w3-grayscale-min">
-    <div class="w3-quarter">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-   </div>
-    
-   <div class="w3-quarter">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
-    </div>
-    
-    <div class="w3-quarter">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-      <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-      <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-    </div>
+<!-- About Us / Services -->
+<div class="w3-cell-row">
+    <div class="w3-container w3-light-grey w3-cell w3-mobile" style="width: 40%; background-image: url(img/logo-opicity.png);background-repeat: no-repeat; background-position: center;">
+        
+        <div class="w3-padding w3-padding-32">
+            <h1 class="blue-text w3-center">
+                <b>About Us</b>        
+            </h1>
+            <p class="w3-large w3-left">
+                Global Direct Link Co.,(GDL), a member of Union of Myanmar Federation of Chamber of Commerce and Industry (UMFCCI), is in operation its businesses since January, 2012 at 98(B), Inya Road, in Yangon, Myanmar.
+            </p>
+            <p class="w3-large w3-left">
+                Main functions are promoting business activities between Japan and Myanmar through mutual beneficial perspectives & cooperation especially in Trade, Media, Advertisement and Research & Consultancy Services.
+            </p>
+            <p class="w3-large w3-left">
+                GDL started into Media Industry in 2014 as a sole investor for printing and publication of Global New Light of Myanmar English Daily (GNLM) after installation of modern printing facilities in Yangon, Myanmar under the Joint Venture Agreement with the News & Periodical Enterprise of the Ministry of Information.
+            </p>
 
-    <div class="w3-quarter">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-    </div>
-  </div>
-
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div>
-  
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
-
-  <!-- About section -->
-  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
-    <h4><b>About Me</b></h4>
-    <img src="/w3images/avatar_hat.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
-    <div class="w3-content w3-justify" style="max-width:600px">
-      <h4>My Name</h4>
-      <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <p>mail: example@example.com</p>
-      <p>tel: 5353 35531</p>
-      <hr class="w3-opacity">
-      <h4 class="w3-padding-16">Technical Skills</h4>
-      <p class="w3-wide">Photography</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
-      </div>
-      <p class="w3-wide">Web Design</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
-      </div>
-      <p class="w3-wide">Photoshop</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
-      </div>
-      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">Download Resume</button></p>
-      <hr class="w3-opacity">
-
-      <h4 class="w3-padding-16">How much I charge</h4>
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center">
-            <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">5GB Storage</li>
-            <li class="w3-padding-16">Mail Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 10</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-            </li>
-          </ul>
+            <p class="w3-large w3-left">
+                Global New Light of Myanmar English Daily (GNLM) was well known as state owned English Daily Newspaper for decades and transformation is under way.
+            </p>
+            <div class="w3-center w3-margin-top">
+                <button type="submit" class="w3-button w3-xlarge w3-padding-large blue-color w3-center">
+                    Learn More 
+<!--                    <i class="fa fa-angle-right" aria-hidden="true"></i>-->
+                </button>
+            </div>                    
         </div>
         
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center">
-            <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">50GB Storage</li>
-            <li class="w3-padding-16">Endless Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 25</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Contact section -->
-  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-    <div class="w3-content" style="max-width:600px">
-      <h4 class="w3-center"><b>Contact Me</b></h4>
-      <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
-        </div>
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
-      </form>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-grey">  
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <h3>INFO</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>      
-      </div>
     
-      <div class="w3-third">
-        <h3>BLOG POSTS</h3>
-        <ul class="w3-ul">
-          <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Lorem</span><br>
-            <span>Sed mattis nunc</span>
-          </li>
-          <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Ipsum</span><br>
-            <span>Praes tinci sed</span>
-          </li> 
-        </ul>
-      </div>
+    <div class="w3-container blue-color w3-cell w3-mobile">
+        <div class="w3-padding w3-padding-32">
+            <h1 class="w3-text-white w3-center"><b>Our Services</b></h1>
+            
+            <div class="w3-row-padding">
+                <!-- Trading -->
+                <div class="w3-col l6 w3-margin-top">
+                    <div class="w3-row w3-padding w3-white">
+                        <div class="w3-col l4 w3-center">
+                            <img class="w3-padding-32" src="img/icons/trading-icons.png" />
+                        </div>
+                        <div class="w3-col l8">
+                            <h2>
+                                <b>Trading</b>
+                            </h2>
+                            <p>
+                                Import & exports of natural resources, vehicles, building & printing material
+                            </p>
+                            <p>
+                                <a href="#">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="w3-third">
-        <h3>POPULAR TAGS</h3>
-        <p>
-          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
-        </p>
-      </div>
+                <!-- Manufacturing -->
+                <div class="w3-col l6 w3-margin-top">
+                    <div class="w3-row w3-padding w3-white">
+                        <div class="w3-col l4 w3-center">
+                            <img class="w3-padding-32" src="img/icons/manufacturing-icons.png" />
+                        </div>
+                        <div class="w3-col l8">
+                            <h2>
+                                <b>Manufacturing</b>
+                            </h2>
+                            <p>
+                                Wood processing & Newspaper printing <br/> <br/>
+                            </p>
+                            <p>
+                                <a href="#">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w3-row-padding">
+                <!-- Mining -->
+                <div class="w3-col l6 w3-margin-top">
+                    <div class="w3-row w3-padding w3-white">
+                        <div class="w3-col l4 w3-center">
+                            <img class="w3-padding-32" src="img/icons/mine-icons.png" />
+                        </div>
+                        <div class="w3-col l8">
+                            <h2>
+                                <b>Mining</b>
+                            </h2>
+                            <p>
+                                Gems & Gold
+                            </p>
+                            <p>
+                                <a href="#">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Real Estate -->
+                <div class="w3-col l6 w3-margin-top">
+                    <div class="w3-row w3-padding w3-white">
+                        <div class="w3-col l4 w3-center">
+                            <img class="w3-padding-32" src="img/icons/estate-icons.png" />
+                        </div>
+                        <div class="w3-col l8">
+                            <h2>
+                                <b>Real Estate</b>
+                            </h2>
+                            <p>
+                                Developer & Project Management
+                            </p>
+                            <p>
+                                <a href="#">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding">
+
+                <div class="w3-col l3">&nbsp;</div>
+
+                <!-- Information & News Publishing -->
+                <div class="w3-col l6 w3-margin-top">
+                    <div class="w3-row w3-padding w3-white">
+                        <div class="w3-col l4 w3-center">
+                            <img class="w3-padding-32" src="img/icons/news-icons.png" />
+                        </div>
+                        <div class="w3-col l8">
+                            <h2>
+                                <b>Information & News Publishing</b>
+                            </h2>
+                            <p>
+                                Daily newspaper & information services
+                            </p>
+                            <p>
+                                <a href="#">
+                                    Learn More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-col l3">&nbsp;</div>
+
+            </div>
+            
+        </div>
     </div>
-  </footer>
-  
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+</div>
+    
+<!-- Business Partners -->
+<div class="w3-white w3-padding w3-padding-32">
+    <div class="w3-main w3-content" style="max-width:1600px;">
+
+        <div class="w3-row">
+
+                <h1 class="blue-text w3-center">
+                    <b>Business Partners</b>        
+                </h1>
+
+                <div class="w3-col l3 w3-center">
+                    <img src="img/partner/partner1.png" />
+                </div>
+
+                <div class="w3-col l3 w3-center">
+                    <img src="img/partner/partner2.png" />
+                </div>
+
+                <div class="w3-col l3 w3-center">
+                    <img src="img/partner/partner3.png" />
+                </div>
+
+                <div class="w3-col l3 w3-center">
+                    <img src="img/partner/partner4.png" />
+                </div>
+
+        </div>
+
+    </div>    
+</div>
+    
+<!-- Contact Form / Google Map -->
+<div class="w3-cell-row">
+    
+    <div class=" w3-green w3-cell w3-mobile" style="width: 40%;">
+        <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:550px;"></div>
+    </div>
+    
+    <div class="w3-container w3-light-grey w3-cell w3-mobile">
+    
+        <div class="w3-padding-32">
+          <h1 class="blue-text w3-center"><b>Contact Us</b></h1>
+          <p class="blue-text w3-center"><b>Get In Touch</b></p>
+          <form class="w3-container w3-padding-32 w3-light-grey" action="#" target="_blank">
+            <div class="w3-row-padding">
+                <div class="w3-col l4 w3-margin-top">
+                    <input class="w3-input" style="width:100%; border: solid #1b6ab4 4px;" placeholder="Name" type="text" required name="name">
+                </div>
+                <div class="w3-col l4 w3-margin-top">
+                    <input class="w3-input" style="width:100%; border: solid #1b6ab4 4px;" placeholder="Phone No" type="tel" required name="phone">
+                </div>
+                <div class="w3-col l4 w3-margin-top">
+                    <input class="w3-input" style="width:100%; border: solid #1b6ab4 4px;" placeholder="Email" type="email" required name="Email">
+                </div>
+                <div class="w3-col l12 w3-margin-top">
+                    <textarea placeholder="Message" rows="5" name="message" style="width:100%; border: solid #1b6ab4 4px;"></textarea>
+                </div>
+            </div>
+            <div class="w3-center w3-margin-top">
+                <button type="submit" class="w3-button w3-xlarge w3-padding-large blue-color w3-center">
+                    Send <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </button>
+            </div>        
+          </form>
+        </div>
+        
+    </div>
+</div>
+
+    
+
+<!-- Footer -->
+<footer class="w3-container w3-center blue-color w3-padding-64">
+    <div class="w3-center">
+        <img src="img/footer-logo.png" style="width: 150px" />
+    </div>
+    <p class="w3-large">
+        <a href="#" style="text-decoration: none;">Home</a> . 
+        <a href="#" style="text-decoration: none;">About</a> . 
+        <a href="#" style="text-decoration: none;">Service</a> . 
+        <a href="#" style="text-decoration: none;">Contact</a>
+    </p>
+    <p class="w3-large">
+        Copyright &copy; 2018 Global Direct Link
+    </p>
+</footer>
 
 <!-- End page content -->
 </div>
@@ -388,6 +456,26 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-blue";
 }
 </script>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(16.827559, 96.140474);
+  var mapOptions= {
+    center:myCenter,
+    zoom:16, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuSr5a5KMyK3Y3k2iYryUhd2wf3H-aN7A&callback=myMap"></script>     
     
 </body>
 </html>
