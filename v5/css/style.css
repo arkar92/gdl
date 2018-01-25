@@ -1,0 +1,97 @@
+.blue-color{
+    background-color: #1b6ab4;
+    color: white;
+}
+
+.blue-text{
+    color: #1b6ab4;
+}
+
+.gdl-head-text{
+    text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+}
+
+.bg1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/slider/news-min.jpg");
+    min-height: 450px;
+}
+
+.bg2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/slider/trading-min.jpg");
+    min-height: 450px;
+}
+
+.bg3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/slider/factory-min.jpg");
+    min-height: 450px;
+}
+
+.bg4 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/slider/mine-min.jpg");
+    min-height: 450px;
+}
+
+.bg5 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/slider/home-min.jpg");
+    min-height: 450px;
+}
+
+/*
+
+.bgimg1 {
+    background: #5C97FF;
+    content: ' ';
+    width: 100%;
+    min-height: 75%;
+    opacity: 0.9;
+    background-image: url('/v5/img/slider/news-min.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+    
+.bgimg2 {
+    background: rgba(76, 175, 80, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-image: url("/v5/slider/trading-min.jpg");
+    min-height: 75%;
+}
+    
+.bgimg3 {
+    background: rgba(76, 175, 80, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-image: url("/v5/img/slider/factory-min.jpg");
+    min-height: 75%;
+}
+    
+.bgimg4 {
+    background: rgba(76, 175, 80, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-image: url("/v5/img/slider/mine-min.jpg");
+    min-height: 75%;
+}
+
+.bgimg5 {
+    background: rgba(76, 175, 80, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-image: url("/v5/img/slider/home-min.jpg");
+    min-height: 75%;
+}*/
